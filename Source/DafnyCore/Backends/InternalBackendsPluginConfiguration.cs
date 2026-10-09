@@ -15,7 +15,8 @@ internal class InternalBackendsPluginConfiguration : Plugins.PluginConfiguration
       new CppBackend(options),
       new LibraryBackend(options),
       new RustBackend(options),
-      new ResolvedDesugaredExecutableDafnyBackend(options)
+      new ResolvedDesugaredExecutableDafnyBackend(options),
+      new EvmBackend(options)
     ];
   }
 }
